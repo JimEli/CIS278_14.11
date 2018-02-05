@@ -12,7 +12,7 @@ You own a hardware store and need to keep an inventory that can tell you what di
   56        Power saw        18        99.99
   68        Sledge hammer    11        21.50
   83        Wrench           34        7.50
-
+```
 Notes:
 * Compiled with MS Visual Studio 2017 Community (v141).
 * Submitted in partial fulfillment of the requirements of PCC CIS-278.
