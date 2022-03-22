@@ -46,7 +46,8 @@ using namespace std;
 enum class Choice { DISPLAY = 1, UPDATE, NEW, DELETE, END, INVALID };
 
 // Return file size.
-int fSize(fstream& file) {
+int fSize(fstream& file) 
+{
 	file.seekg(0, ios::end);
 	int fileSize = static_cast<int>(file.tellg());
 	file.seekg(0, ios::beg);
